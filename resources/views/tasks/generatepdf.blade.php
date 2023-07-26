@@ -9,7 +9,7 @@
   <style>
     th,td,table{
       border: 2px solid black;
-      padding: 0px;
+      border-collapse: collapse;
     }
   </style>
 </head>
