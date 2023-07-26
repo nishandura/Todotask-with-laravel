@@ -6,6 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <style>
+    th,td,table{
+      border: 2px solid black;
+      padding: 0px;
+    }
+  </style>
 </head>
 <body>
   <div class="container">
@@ -13,7 +19,7 @@
        <div class="card text-left">
          <div class="card-body">
            <h4 class="card-title">Task Details</h4>
-           <table class="table table-bordered">
+           <table class="table table-bordered table-responsive">
             <thead>
                 <tr>
                     <th>S.N.</th>
